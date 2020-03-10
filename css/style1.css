@@ -1,0 +1,16 @@
+body{
+  font-family: sans-serif;
+  color: black;
+}
+p{
+  color: red;
+  font-size: 12px;
+}
+h1{
+}
+select:invalid, textarea:invalid, input:invalid{
+  border: 2px dashed red;
+}
+select:valid, textarea:valid, input:valid{
+  border: 2px solid black;
+}
