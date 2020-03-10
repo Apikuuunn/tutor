@@ -1,6 +1,13 @@
 body{
   font-family: sans-serif;
-  color: black;
+  color: blue;
+}
+h2{
+  border: 3px dashed blue;
+}
+.classforContact{
+  color: #291970;
+  border: 3px;
 }
 p{
   color: red;
