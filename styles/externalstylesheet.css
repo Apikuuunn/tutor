@@ -3,6 +3,7 @@
 }
 body{
   font-family: sans-serif;
+  color: blue;
   background-color: #E6E6FA;
   border: 1px solid black;
 }
@@ -16,6 +17,9 @@ h2{
 p{
   color: red;
 }
+ul{
+  color: black;
+}
 .classforContact{
   color: #291970;
   border: 3px;
@@ -28,4 +32,17 @@ select:valid, textarea:valid, input:valid{
 }
 #IDselector {
   background-color: #591970;
+}
+table, td, th, tr{
+  border: 1px solid gray;
+  text-align: center;
+}
+table{
+  background-color: white;
+}
+tr, td, th{
+  padding: 12px;
+}
+tr:nth-child(even),th {
+  background-color: #f2f2f2;
 }
